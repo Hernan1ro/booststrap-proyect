@@ -2,6 +2,12 @@
 .text-platzi {
   color: #85af39 !important;
 }
+.btn-platzi {
+  background-color: #85af39 !important;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+}
 #header {
   img {
     width: 80px;
@@ -29,6 +35,13 @@
     .row {
       height: 100%;
     }
+  }
+}
+#place-time {
+  background-color: #212529;
+  color: white;
+  img {
+    max-width: 100%;
   }
 }
 #footer {

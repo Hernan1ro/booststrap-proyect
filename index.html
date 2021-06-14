@@ -130,7 +130,11 @@
                 class="card-img-top"
                 alt="Foto sacha"
               />
-              <div class="card-body">
+              <div class="card-body pt-1">
+                <div class="badges text-end">
+                  <span class="badge bg-warning">Javascript</span>
+                  <span class="badge bg-success">React</span>
+                </div>
                 <h5 class="card-title">Sazha lyzctic</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
@@ -146,7 +150,11 @@
                 class="card-img-top"
                 alt="Foto sacha"
               />
-              <div class="card-body">
+              <div class="card-body pt-1">
+                <div class="badges text-end">
+                  <span class="badge bg-primary">Negocios</span>
+                  <span class="badge bg-secondary">Startup</span>
+                </div>
                 <h5 class="card-title">Freddy Vega</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
@@ -162,7 +170,11 @@
                 class="card-img-top"
                 alt="Foto sacha"
               />
-              <div class="card-body">
+              <div class="card-body pt-1">
+                <div class="badges text-end">
+                  <span class="badge bg-warning">Javascript</span>
+                  <span class="badge bg-success">React</span>
+                </div>
                 <h5 class="card-title">Lenonidas esteban</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
@@ -178,7 +190,11 @@
                 class="card-img-top"
                 alt="Foto sacha"
               />
-              <div class="card-body">
+              <div class="card-body pt-1">
+                <div class="badges text-end">
+                  <span class="badge bg-primary">Negocios</span>
+                  <span class="badge bg-secondary">Startup</span>
+                </div>
                 <h5 class="card-title">Cristian Vanderhest</h5>
                 <p class="card-text">
                   Some quick example text to build on the card title and make up
@@ -191,7 +207,91 @@
       </div>
     </section>
     <!-- speakers  -->
-
+    <!-- Lugar y fecha    -->
+    <section id="place-time">
+      <div class="container-fluid">
+        <div class="row mb-4">
+          <div class="col-12 col-md-6 px-0">
+            <img src="/assets/images/honolulu.jpg" alt="Honolulu" />
+          </div>
+          <div class="col-12 col-md-6 pb-2">
+            <h2 class="mt-4">Honolulu - Octubre 2025</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              necessitatibus repudiandae obcaecati sint error provident vel
+              consectetur illo iure aut saepe explicabo deleniti at, tempora
+              eaque est, nam nisi, libero blanditiis cupiditate voluptate
+              beatae. Amet vitae nesciunt impedit labore corrupti.
+            </p>
+            <a href="#" class="btn btn-outline-light">Conoce más</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Lugar y fecha    -->
+    <!-- convierte en orador   -->
+    <section id="convierte-en-orador" class="pt-2 pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col text-uppercase text-center">
+            <small>Convierte en un</small>
+            <h2>Orador</h2>
+          </div>
+          <div class="row text-center">
+            <p>
+              Anótate como orador para dar una charla
+              <abbr title="5 min talk" data-bs-toggle="tooltip">ignite</abbr>.
+              Cuéntanos de qué quieres hablar!
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-8 offset-2">
+              <form action="">
+                <div class="form-row row">
+                  <div class="mb-2 col-12 col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Nombre"
+                    />
+                  </div>
+                  <div class="mb-2 col-12 col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Apellido"
+                    />
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col form-group">
+                    <textarea
+                      name="text"
+                      id=""
+                      cols="30"
+                      rows="3"
+                      class="form-control form-control-lg"
+                      placeholder="¿Sobre que quieres hablar?"
+                    ></textarea>
+                    <small class="form-text text-muted">
+                      Recuerda incluir un título para tu charla
+                    </small>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col">
+                    <button type="button" class="btn btn-platzi btn-block mt-2">
+                      Enviar
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- convierte en orador   -->
     <!-- Footer -->
     <footer id="footer" class="pb-4 pt-4">
       <div class="container">
@@ -218,7 +318,6 @@
       </div>
     </footer>
     <!-- footer  -->
-
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -227,7 +326,7 @@
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
-
+    <script src="/js/index.js"></script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>

@@ -2,6 +2,13 @@
   color: #85af39 !important;
 }
 
+.btn-platzi {
+  background-color: #85af39 !important;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+}
+
 #header img {
   width: 80px;
 }
@@ -32,6 +39,15 @@
 #carousel .overlay .container,
 #carousel .overlay .row {
   height: 100%;
+}
+
+#place-time {
+  background-color: #212529;
+  color: white;
+}
+
+#place-time img {
+  max-width: 100%;
 }
 
 #footer {
